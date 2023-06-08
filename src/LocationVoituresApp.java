@@ -24,7 +24,7 @@ public class LocationVoituresApp extends Application {
     }
 
     public LocationVoituresApp() {
-        String url = "jdbc:sqlite:/C:\\Users\\Pharell\\Documents\\myPrograms\\Java\\JavaFx\\location_voitures.db";
+        String url = "jdbc:sqlite:src\\location_voitures.db";
         try {
             this.conn = DriverManager.getConnection(url);
         } catch (SQLException ex) {
