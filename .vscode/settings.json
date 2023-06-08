@@ -1,0 +1,28 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\Pharell\\Downloads\\Compressed\\EmployeeManagementSystem-main\\employeeManagementSystem\\dist\\lib\\fontawesomefx-8.2.jar"
+        ],
+        "exclude": [
+            "c:\\Program Files\\Eclipse Adoptium\\jdk-17.0.7.7-hotspot\\javafx-sdk-20.0.1\\lib\\fxribbon-1.2.1-javadoc.jar"
+        ]
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "ProjetGC",
+            "database": "location_voitures",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LocationVoituresApp",
+            "request": "launch",
+            "vmArgs": "--module-path C:/'Program Files'/'Eclipse Adoptium'/jdk-17.0.7.7-hotspot/javafx-sdk-20.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "LocationVoituresApp",
+            "projectName": "ProjetGC_6a324321"
+        }
+    ]
+}
